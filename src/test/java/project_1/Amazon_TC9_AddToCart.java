@@ -1,10 +1,11 @@
 package project_1;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(project_1.Listener_Program.class)
 public class Amazon_TC9_AddToCart extends Launch_Quit_Browser
 {
-	@Test
+	@Test(retryAnalyzer = project_1.RetryAnalyzer_Program.class)
 	public void cart() throws InterruptedException
 	{
 		Amazon_HomePage HomePage= new Amazon_HomePage(driver);
@@ -23,6 +24,8 @@ public class Amazon_TC9_AddToCart extends Launch_Quit_Browser
 		
 		Amazon_AddtoCartPage cart = new Amazon_AddtoCartPage(driver);
 		cart.Add_toCart();
+		cart.Quantities();
+		cart.Removing_items();
 		
 	
 		

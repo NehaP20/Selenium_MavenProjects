@@ -7,24 +7,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 public class Amazon_ProductDetailsPage 
 {
 	WebDriver driver;
 	@FindBy(xpath="(//div[@class='a-section aok-relative s-image-tall-aspect'])[2]")
-	WebElement watch_select;
+	WebElement bag_select;
 	@FindBy(xpath="//i[contains(@class,'a-icon a-icon-star')]")
 	WebElement rating_display;
 	@FindBy(xpath="(//span[@class='a-price-whole'])[2]")
 	WebElement price_display;
 	@FindBy(id="add-to-cart-button")
 	WebElement cart_button;
+	@FindBy(name="submit.buy-now")
+	WebElement buynow;
 	
 	public void selectproduct()
 	{
-		watch_select.click();
-		//rating_display.isDisplayed();
-		//price_display.isDisplayed();
-		//Assert.assertTrue(price_display.isDisplayed(), "Price display is not visible on the page.");
+		bag_select.click();
+		Assert.assertEquals(price_display.isDisplayed(), true, "Price display is not visible on the page.");
         System.out.println("Price display status: " + price_display.isDisplayed());
         System.out.println("Customer Ratings display status: " + rating_display.isDisplayed());
 	
@@ -38,6 +39,10 @@ public class Amazon_ProductDetailsPage
 		System.out.println("Parent Window ID: " + parentid);
         System.out.println("Child Window ID: " + childid);
 		driver.switchTo().window(childid);
+	}
+	public void Buynow()
+	{
+		buynow.click();
 	}
 	public void addingtocart()
 	{

@@ -3,14 +3,21 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="project_1.Amazon_TC1_NewRegistration"/>
+      <class name="project_1.Amazon_TC2_LoginSuccessful"/>
+      <class name="project_1.Amazon_TC3_LoginFails"/>
+      <class name="project_1.Amazon_TC4_ManageProfile"/>
+      <class name="project_1.Amazon_TC5_SearchProduct"/>
+      <class name="project_1.Amazon_TC7_ProductDetails"/>
       <class name="project_1.Amazon_TC8_Products_SortedBy"/>
       <class name="project_1.Amazon_TC9_AddToCart"/>
-      <class name="project_1.Amazon_TC7_ProductDetails"/>
-      <class name="project_1.Amazon_TC4_ManageProfile"/>
-      <class name="project_1.Amazon_TC1_NewRegistration"/>
-      <class name="project_1.Amazon_TC3_LoginFails"/>
-      <class name="project_1.Amazon_TC5_SearchProduct"/>
-      <class name="project_1.Amazon_TC2_LoginSuccessful"/>
+      <class name="project_1.Amazon_TC11_CheckoutProcess"/>
+      <class name="project_1.Amazon_TC14_RatingsToLastProducts"/>
+      <class name="project_1.Amazon_TC15_WithoutLogin_AddProduct_InCart"/>
     </classes>
+    
   </test> <!-- Test -->
+  <listeners>
+    <listener class-name="project_1.Listener_Program"/>
+</listeners>
 </suite> <!-- Suite -->

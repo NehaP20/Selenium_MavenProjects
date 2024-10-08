@@ -11,41 +11,28 @@ public class Amazon_SearchResultPage
 	WebElement SearchBox;
 	@FindBy(partialLinkText="Get It by Tomorrow")
 	WebElement deliveryday_checkbox;
-	@FindBy(xpath="(//span[.='Casio'])[15]")
+	@FindBy(xpath="//span[.='Premium Brands']")
 	WebElement brands_checkbox;
-	@FindBy(xpath="//span[.='Digital']")
-	WebElement display_checkbox;
-	@FindBy(xpath="(//span[.='Rose Gold'])[1]")
+	@FindBy(xpath="//span[.='Medium (20 - 39 cm)']")
+	WebElement bagWidth_checkbox;
+	@FindBy(xpath="(//span[.='Leather'])[1]")
 	WebElement material_checkbox;
-	@FindBy(partialLinkText="Women's Watches")
+	@FindBy(partialLinkText="Women's Top-Handle Bags")
 	WebElement category;
 	
 	public void ClickOnSearch()
 	{
-		SearchBox.sendKeys("watches" + Keys.ENTER);
+		SearchBox.sendKeys("Handbags" + Keys.ENTER);
 	}
 	public void Applyfilters() throws InterruptedException
 	{
 		deliveryday_checkbox.click();
 		//brands_checkbox.click();
-		display_checkbox.click();
+		//bagWidth_checkbox.click();
 		//material_checkbox.click();
 		Thread.sleep(2000);
 		category.click();
 	}
-	
-	/*public void RangePrice()
-	{
-		Point p1=Pricerange.getLocation();
-		int x=p1.getX();
-		int y=p1.getY();
-		System.out.println(x);
-		System.out.println(y);
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(40,0)");
-	}*/
-	
-    
 	public Amazon_SearchResultPage(WebDriver driver)
 	{
 		this.driver=driver;

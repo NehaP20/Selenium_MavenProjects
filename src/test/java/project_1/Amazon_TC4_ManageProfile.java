@@ -1,10 +1,11 @@
 package project_1;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(project_1.Listener_Program.class)
 public class Amazon_TC4_ManageProfile extends Launch_Quit_Browser
 {
-	@Test
+	@Test(retryAnalyzer = project_1.RetryAnalyzer_Program.class)
 	public void editprofile()
 	{
 		Amazon_HomePage HP= new Amazon_HomePage(driver);

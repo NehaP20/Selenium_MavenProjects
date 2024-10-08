@@ -36,6 +36,15 @@ public class Amazon_LoginPage
             System.out.println("Login failed!");
         }
 	}
+	public void UserLogin(String mailid, String pwd)
+	{
+		username.clear();
+		username.sendKeys(mailid);
+		continue_button.click();
+        password.clear();
+        password.sendKeys(pwd);
+        signin_button.click();
+	}
 	public void LoginFail_Email()
 	{
 		username.sendKeys("neha111@gmaill.com");

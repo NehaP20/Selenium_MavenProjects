@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="project_1.Amazon_TC9_AddToCart">
+      <class name="project_1.Amazon_TC11_CheckoutProcess">
         <methods>
-          <include name="cart"/>
+          <include name="Proceed_to_Buy"/>
           <include name="launching"/>
           <include name="Quit"/>
         </methods>
-      </class> <!-- project_1.Amazon_TC9_AddToCart -->
+      </class> <!-- project_1.Amazon_TC11_CheckoutProcess -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
