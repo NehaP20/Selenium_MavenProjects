@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-380941574\testng-customsuite.xml</span>
+                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1789369579\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="SeleniumProject1.SeleniumP.AmZ_TestCase1_HP" class="method navigator-link" hash-for-method="homepage">homepage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="project_1.Amazon_TC9_AddToCart" class="method navigator-link" hash-for-method="cart">cart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,17 +122,46 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">SeleniumProject1.SeleniumP.AmZ_TestCase1_HP</span>
+              <span class="class-name">project_1.Amazon_TC9_AddToCart</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="homepage">
-                  </a> <!-- homepage -->
-                  <span class="method-name">homepage</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getWindowHandles()&quot; because &quot;this.driver&quot; is null
-	at SeleniumProject1.SeleniumP.Amz_ProductDescription.&lt;init&gt;(Amz_ProductDescription.java:15)
-	at SeleniumProject1.SeleniumP.AmZ_TestCase1_HP.homepage(AmZ_TestCase1_HP.java:20)
+                  <a name="cart">
+                  </a> <!-- cart -->
+                  <span class="method-name">cart</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1db81a164b27859660f80d0a38a715f, clickElement {id=f.CDE3C28F0386934DCED7356E7E112325.d.0CAE3834539B806B0B31608673A46681.e.2339}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59028}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59028/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c1db81a164b27859660f80d0a38a715f)] -&gt; xpath: (//span[.=&apos; Skip &apos;])[3]]
+Session ID: c1db81a164b27859660f80d0a38a715f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at project_1.Amazon_AddtoCartPage.Add_toCart(Amazon_AddtoCartPage.java:16)
+	at project_1.Amazon_TC9_AddToCart.cart(Amazon_TC9_AddToCart.java:25)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,7 +199,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-380941574\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1789369579\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -179,7 +208,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;SeleniumProject1.SeleniumP.AmZ_TestCase1_HP&quot;/&gt;
+      &lt;class name=&quot;project_1.Amazon_TC9_AddToCart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;cart&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- project_1.Amazon_TC9_AddToCart --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -221,14 +254,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'homepage')
-data.setCell(0, 2, 'SeleniumProject1.SeleniumP.AmZ_TestCase1_HP')
-data.setCell(0, 3, 14142);
+data.setCell(0, 1, 'cart')
+data.setCell(0, 2, 'project_1.Amazon_TC9_AddToCart')
+data.setCell(0, 3, 19669);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -254,7 +287,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">SeleniumProject1.SeleniumP.AmZ_TestCase1_HP</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">project_1.Amazon_TC9_AddToCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launching</span>
                 <span class="method-start">0 ms</span>
@@ -262,12 +295,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">homepage</span>
-                <span class="method-start">4842 ms</span>
+                <span class="method-name">cart</span>
+                <span class="method-start">10289 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Quit</span>
-                <span class="method-start">18990 ms</span>
+                <span class="method-start">29963 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

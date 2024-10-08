@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="project_1.Amazon_TC8_Products_SortedBy"/>
+      <class name="project_1.Amazon_TC9_AddToCart"/>
+      <class name="project_1.Amazon_TC7_ProductDetails"/>
+      <class name="project_1.Amazon_TC4_ManageProfile"/>
+      <class name="project_1.Amazon_TC1_NewRegistration"/>
+      <class name="project_1.Amazon_TC3_LoginFails"/>
+      <class name="project_1.Amazon_TC5_SearchProduct"/>
+      <class name="project_1.Amazon_TC2_LoginSuccessful"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

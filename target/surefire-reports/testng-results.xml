@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T17:15:25 IST" name="Suite" finished-at="2024-09-26T17:16:38 IST" duration-ms="73207">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T17:15:25 IST" name="Test" finished-at="2024-09-26T17:16:38 IST" duration-ms="73207">
+      <class name="SeleniumProject1.SeleniumP.AmZ_TestCase1_HP">
+        <test-method is-config="true" signature="launching()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase1_HP@15bbf42f]" started-at="2024-09-26T17:15:25 IST" name="launching" finished-at="2024-09-26T17:15:35 IST" duration-ms="9358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="homepage()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase1_HP@15bbf42f]" started-at="2024-09-26T17:15:35 IST" name="homepage" finished-at="2024-09-26T17:15:38 IST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase1_HP@15bbf42f]" started-at="2024-09-26T17:15:38 IST" name="Quit" finished-at="2024-09-26T17:15:40 IST" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- SeleniumProject1.SeleniumP.AmZ_TestCase1_HP -->
+      <class name="SeleniumProject1.SeleniumP.AmZ_TestCase3_SR">
+        <test-method is-config="true" signature="launching()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase3_SR@383bfa16]" started-at="2024-09-26T17:15:51 IST" name="launching" finished-at="2024-09-26T17:16:05 IST" duration-ms="13815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="searching()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase3_SR@383bfa16]" started-at="2024-09-26T17:16:05 IST" name="searching" finished-at="2024-09-26T17:16:14 IST" duration-ms="8864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searching -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase3_SR@383bfa16]" started-at="2024-09-26T17:16:14 IST" name="Quit" finished-at="2024-09-26T17:16:16 IST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- SeleniumProject1.SeleniumP.AmZ_TestCase3_SR -->
+      <class name="SeleniumProject1.SeleniumP.AmZ_TestCase4_PD">
+        <test-method is-config="true" signature="launching()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase4_PD@4d465b11]" started-at="2024-09-26T17:16:16 IST" name="launching" finished-at="2024-09-26T17:16:23 IST" duration-ms="6882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="Description()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase4_PD@4d465b11]" started-at="2024-09-26T17:16:23 IST" name="Description" finished-at="2024-09-26T17:16:36 IST" duration-ms="12680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Description -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase4_PD@4d465b11]" started-at="2024-09-26T17:16:36 IST" name="Quit" finished-at="2024-09-26T17:16:38 IST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- SeleniumProject1.SeleniumP.AmZ_TestCase4_PD -->
+      <class name="SeleniumProject1.SeleniumP.AmZ_TestCase2_LP">
+        <test-method is-config="true" signature="launching()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase2_LP@71def8f8]" started-at="2024-09-26T17:15:40 IST" name="launching" finished-at="2024-09-26T17:15:44 IST" duration-ms="4262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method signature="login_amz()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase2_LP@71def8f8]" started-at="2024-09-26T17:15:44 IST" name="login_amz" finished-at="2024-09-26T17:15:49 IST" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_amz -->
+        <test-method is-config="true" signature="Quit()[pri:0, instance:SeleniumProject1.SeleniumP.AmZ_TestCase2_LP@71def8f8]" started-at="2024-09-26T17:15:49 IST" name="Quit" finished-at="2024-09-26T17:15:51 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- SeleniumProject1.SeleniumP.AmZ_TestCase2_LP -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

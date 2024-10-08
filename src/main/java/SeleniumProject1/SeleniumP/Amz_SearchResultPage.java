@@ -13,7 +13,7 @@ public class Amz_SearchResultPage
 	WebElement searchproduct;
 	public void search()
 	{
-		searchproduct.sendKeys("womens sneakers" + Keys.ENTER);
+		searchproduct.sendKeys("Fire TV" + Keys.ENTER);
 		
 	}
 	public Amz_SearchResultPage(WebDriver driver)
